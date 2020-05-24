@@ -1,18 +1,18 @@
-* BossToneCentral downloader
+# BossToneCentral downloader
 
 Download any patches for any proc from bosstonecentral.
 It's very useful when you using fxfloorboard.
 
 ![BossToneCentral downloader](app.png)
 
-# Select proc
-# Select genre
-# Select patch
-# Download
+* Select proc
+* Select genre
+* Select patch
+* Download
 
 File can be found in current application directory.
 
-** Proc settings mapping
+## Proc settings mapping
 
 ```
 GT-100 v2/GT-001 => gt.json
@@ -25,7 +25,7 @@ ME-80 => me-80.json
 ME-25 => me-25.json
 ```
 
-** Manual download instruction
+## Manual download instruction
 
 Download two files
 ```
