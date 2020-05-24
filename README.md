@@ -10,7 +10,13 @@ It's very useful when you using fxfloorboard.
 * Select patch
 * Download
 
-File can be found in current application directory.
+File can be found in current application directory or in path from your .desktop file (See below).
+
+## OS requirements
+
+```bash
+$ sudo dnf install python3-wxpython4-webview python3-wxpython4 
+```
 
 ## Proc settings mapping
 
@@ -38,3 +44,18 @@ Your can download any patches with next path
 ```
 define.btc.domain + define.btc.liveset_file + apps.items.basename + '.tsl'
 ```
+
+## Descktop entry
+
+```
+[Desktop Entry]
+Type=Application
+Name=BOSS ToneCentral downloader
+GenericName=BOSSToneCentralDownloader
+Comment=Download patches from boss tonecentral
+Exec=downloaded-repository-path/download.py
+Path=your-path-to-save-patches
+Terminal=false
+Categories=Audio;
+```
+
