@@ -45,7 +45,7 @@ Your can download any patches with next path
 define.btc.domain + define.btc.liveset_file + apps.items.basename + '.tsl'
 ```
 
-## Descktop entry
+## Desktop entry
 
 ```
 [Desktop Entry]
